@@ -5,6 +5,7 @@
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{booktabs}
+\usepackage{subcaption}
 
 \title{Analysis of Consumer Financial Fraud and Prevention Strategies \\
 \large CIS 3319: Wireless Networks and Security / CIS 4378: Computer and Network Security \\
@@ -27,11 +28,36 @@ Provide an overview of the report's purpose, the importance of understanding con
 
 \section{Exploration of Consumer Financial Fraud}
 \subsection{Examples and Analysis}
+
+\begin{figure}[ht]
+    \centering
+    \begin{subfigure}{.3\textwidth}
+      \centering
+      \includegraphics[width=\linewidth]{maskedphone.jpg}
+      \caption{WhatsApp Fraud: Mimics of Punjab}
+      \label{fig:sub1}
+    \end{subfigure}%
+    \begin{subfigure}{.3\textwidth}
+      \centering
+      \includegraphics[width=\linewidth]{wires.jpg}
+      \caption{Stock Market Manipulation: Newswires}
+      \label{fig:sub2}
+    \end{subfigure}
+    \begin{subfigure}{.3\textwidth}
+      \centering
+      \includegraphics[width=\linewidth]{whale.jpg}
+      \caption{Financial Deception: Synthetic Remittance}
+      \label{fig:sub3}
+    \end{subfigure}
+    \caption{Visual Representations of Financial Fraud Cases}
+    \label{fig:test}
+    \end{figure}
+
 \begin{tabular}{@{}llll@{}}
 \toprule
 \textbf{Source} & \textbf{Brief Description} & \textbf{Vulnerabilities} & \textbf{Attack Vectors} \\ \midrule
-www.example.com & Description & Vulnerability & Attack Vector \\
-% Add more rows as needed
+\textit{WhatsApp Fraud: Mimics of Punjab} & A case of social engineering where victims are deceived into financial loss through WhatsApp communications. & Trust exploitation, lack of digital literacy & Impersonation, phishing messages \\
+% Add more rows and figures as needed
 \bottomrule
 \end{tabular}
 
