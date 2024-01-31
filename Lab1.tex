@@ -55,12 +55,15 @@ To address these threats this report employs two cybersecurity frameworks: CIA (
     \label{fig:test}
     \end{figure}
 
-\begin{tabular}{@{}p{2cm}p{3cm}p{3cm}p{3cm}@{}}
+\begin{tabular}{@{}p{2cm}p{4cm}p{4cm}p{4cm}@{}}
 \toprule
-\textbf{Source} & \textbf{Brief Description} & \textbf{Vulnerabilities} & \textbf{Attack Vectors} \\ \midrule
-\textit{WhatsApp Fraud} & A case of social engineering where victims are deceived into financial loss through WhatsApp communications. & Trust exploitation \newline digital literacy & Impersonation \newline Phishing \newline Emotional Manipulation\\
-\textit{Stock Market Manipulation} & A network of hackers infiltrated newswire services to access and trade on nonpublic information. &  Newswire service security gaps \newline Insider information access & Hacking newswire services \newline Illicit trading \\
-\textit{Financial Deception} & An individual exploited companies by sending fake invoices, leading to unauthorized money transfers. & Lack of robust verification processes for invoices & Phishing \newline Fake invoices \newline Social engineering \\
+\textbf{Case Study} & \textbf{Brief Description} & \textbf{STRIDE Analysis} & \textbf{CIA Analysis} \\ 
+\midrule
+\textit{WhatsApp Fraud} & Social engineering through WhatsApp communications. & Spoofing: Impersonation \newline Repudiation: Potential denial \newline Information Disclosure: Personal data exposure \newline Elevation of Privilege: Identity assumption & Confidentiality: Social engineering breach \newline Integrity: False information \newline Availability: Urgency manipulation \\
+
+\textit{Stock Market Manipulation} & Hackers infiltrated newswire services for insider trading. & Spoofing: Company impersonation \newline Tampering: Invoice alteration \newline Repudiation: Denial of actions \newline Information Disclosure: Financial data access \newline Elevation of Privilege: Insider information access & Confidentiality: Data breach \newline Integrity: Fake invoice creation \newline Availability: Financial process manipulation \\
+
+\textit{Financial Deception} & Fake invoices lead to unauthorized transfers. & Spoofing: System infiltration \newline Tampering: Information alteration \newline Repudiation: Denial of hacking \newline Information Disclosure: Financial data release \newline Elevation of Privilege: Unauthorized access & Confidentiality: Press release breach \newline Integrity: Misused financial data \newline Availability: Insider trading misuse \\
 \bottomrule
 \end{tabular}
         
