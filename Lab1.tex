@@ -53,17 +53,31 @@ The purpose of this report is to provide an focused high level analysis of consu
     \label{fig:test}
     \end{figure}
 
-\begin{tabular}{@{}llll@{}}
+\begin{tabular}{@{}p{2cm}p{3cm}p{3cm}p{3cm}@{}}
 \toprule
 \textbf{Source} & \textbf{Brief Description} & \textbf{Vulnerabilities} & \textbf{Attack Vectors} \\ \midrule
 \textit{WhatsApp Fraud} & A case of social engineering where victims are deceived into financial loss through WhatsApp communications. & Trust exploitation, lack of digital literacy & Impersonation, phishing messages \\
-\textit{WhatsApp Fraud} & A case of social engineering where victims are deceived into financial loss through WhatsApp communications. & Trust exploitation, lack of digital literacy & Impersonation, phishing messages \\
-\textit{WhatsApp Fraud} & A case of social engineering where victims are deceived into financial loss through WhatsApp communications. & Trust exploitation, lack of digital literacy & Impersonation, phishing messages \\
-% Add more rows and figures as needed
+\textit{Stock Market Manipulation} & A network of hackers infiltrated newswire services to access and trade on nonpublic information. & Newswire service security gaps, insider information access & Hacking newswire services, illicit trading \\
+
+\textit{Financial Deception} & An individual exploited companies by sending fake invoices, leading to unauthorized money transfers. & Lack of robust verification processes for invoices & Phishing, fake invoices, social engineering \\
 \bottomrule
 \end{tabular}
 
 Discuss each example in detail, focusing on how the fraud was perpetrated.
+\paragraph*{Impersonation, Communications Fraud and Phishing}
+In the Jalandhar region, a new fraud has emerged where victims receive WhatsApp communications from individuals posing as distant relatives in urgent need of financial aid. The scammers meticulously craft scenarios involving the relative facing legal trouble abroad, compelling the victim to act swiftly. In one case, a woman received a call from a person claiming to be her nephew in Canada, who supposedly had been arrested after an altercation and needed funds for legal fees. Despite initial doubts, she was persuaded by the urgency of the situation and the familiar details provided, leading to a significant financial loss.
+
+Over the span of one week, multiple residents have reported cumulative losses exceeding Rs 5 lakh. Even with reports filed with the Punjab Cyber Cell, recovery of the funds remains uncertain.
+
+Cybersecurity experts suggest that these scams might be the result of a data breach, as scammers appear to have detailed information about the targets. Over a hundred individuals have reported receiving similar calls, pointing to a large-scale operation involving domestic and international perpetrators.
+\paragraph*{Newswires}
+Evaldas Rimasauskas crafted a scheme that exploited the trust and financial flows between large corporations and their suppliers. By establishing a company with the same name as a legitimate supplier and meticulously creating counterfeit invoices, he tricked companies into rerouting payments to bank accounts under his control. His deep understanding of corporate financial processes and the use of social engineering allowed him to bypass existing security measures and accumulate vast sums before detection.
+
+Over two years, Rimasauskas siphoned $23 million from Google and $98 million from Facebook, demonstrating the profound impact that well-planned financial deception can have on even the most technologically advanced firms. While the majority of the stolen funds were eventually recovered, the case highlights the necessity for robust financial controls and the continuous reassessment of security protocols to prevent similar BEC scams.
+
+For further information and to explore the episode, you can visit the Darknet Diaries website.
+\paragraph*{Financial Deception}
+In the "Newswires" case, Arkadiy Dubovoy, a stockbroker, together with a group of traders and hackers, orchestrated a scheme to hack into the systems of major newswire agencies, extracting unpublished press releases containing critical financial data. These documents, containing earnings reports and other market-impacting information, were used to conduct informed trades before the data became public, yielding substantial profits. The operation was sophisticated, utilizing offshore accounts and anonymizing techniques to mask the illicit activities. However, the scheme eventually came undone when U.S. authorities detected the unusual trading patterns, leading to arrests and legal proceedings.
 
 \subsection{Common Vulnerabilities and Attack Vectors}
 Summarize the common vulnerabilities and attack vectors identified in the examples.

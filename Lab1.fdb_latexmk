@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1706737724 "/home/user/git/cis3319/Lab1.tex" "Lab1.pdf" "Lab1" 1706737725
+["pdflatex"] 1706738733 "/home/user/git/cis3319/Lab1.tex" "Lab1.pdf" "Lab1" 1706738733
   "/etc/texmf/web2c/texmf.cnf" 1697164153 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/user/git/cis3319/Lab1.tex" 1706737724 4063 f2fefb0182d13bae04606df0af76f8f4 ""
+  "/home/user/git/cis3319/Lab1.tex" 1706738733 7155 217fd96fea42036c58d429cf163b8f20 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -20,6 +20,7 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
@@ -77,10 +78,10 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1706651427 128028 f533b797fba58d231669ea19e894e23e ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1706651434 1405647 53ad9d94fff2715d85e4d12682a2c533 ""
-  "Lab1.aux" 1706737725 3290 9dbcca3e213345da98922fa0f586fde2 "pdflatex"
-  "Lab1.out" 1706737725 2539 cf06c15d537a9939bc4ce6abe4a35133 "pdflatex"
-  "Lab1.tex" 1706737724 4063 f2fefb0182d13bae04606df0af76f8f4 ""
-  "Lab1.toc" 1706737725 1155 b6c6d6dca4496938070f809ec958fde0 "pdflatex"
+  "Lab1.aux" 1706738733 3292 c54ac9ccfe9700a64672304adeb95885 "pdflatex"
+  "Lab1.out" 1706738733 2539 cf06c15d537a9939bc4ce6abe4a35133 "pdflatex"
+  "Lab1.tex" 1706738733 7155 217fd96fea42036c58d429cf163b8f20 ""
+  "Lab1.toc" 1706738733 1155 2a94ec83346d042c08a7c2a11f6c79ec "pdflatex"
   "maskedphone.jpg" 1706652795 164600 8608dde085f772c5d3a471fe376eb9ba ""
   "whale.jpg" 1706653394 103374 c35303cd87560264ef808ef9136b8175 ""
   "wires.jpg" 1706653406 121398 2258a16c65fc7168959bd95ed2a2434f ""
