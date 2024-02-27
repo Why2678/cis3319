@@ -1,0 +1,106 @@
+\documentclass{article}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{hyperref}
+
+\geometry{a4paper, margin=1in}
+
+\title{CIS 3319/CIS 4378 Lab 5: Password Policies Analysis}
+\author{Aaron Jefferson}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+This lab involves analyzing real-world password policies across different domains to understand their impact on security. Passwords are a fundamental aspect of user authentication, and their strength directly influences the security posture of systems.
+
+\section{Domains Description}
+In this lab, we examine password policies across several domains including healthcare, gaming, e-commerce, and social networking. Each domain plays a crucial role in various aspects of our lives, and the compromise of accounts within these domains can lead to serious consequences such as financial loss, identity theft, and privacy breaches.
+
+\section{Password Policies Analysis}
+
+\subsection*{Healthcare Domain:}
+\paragraph{} The healthcare domain encompasses websites and services related to medical care, including health information, medical facilities, and online patient portals. It's crucial because it provides access to vital health-related information, allows patients to communicate with healthcare providers, schedule appointments, refill prescriptions, and access medical records remotely. If an account in this domain is compromised, sensitive medical information could be exposed, leading to privacy breaches, identity theft, unauthorized access to prescriptions, and potential manipulation of medical records. Moreover, compromised accounts could result in fraudulent medical services being accessed or billed in the victim's name. It is also possible that the victim would be exposed to identity theft.
+\begin{enumerate}
+    \item WebMD (\url{www.webmd.com}): [Password Policy Summary]
+    \item Mayo Clinic (\url{www.mayoclinic.org}): [Password Policy Summary]
+    \item Healthline (\url{www.healthline.com}): [Password Policy Summary]
+    \item CVS Health (\url{www.cvs.com}): [Password Policy Summary]
+    \item Kaiser Permanente (\url{www.kp.org}): [Password Policy Summary]
+    \item Johns Hopkins Medicine (\url{www.hopkinsmedicine.org}): [Password Policy Summary]
+    \item Healthgrades (\url{www.healthgrades.com}): [Password Policy Summary]
+    \item Doctor On Demand (\url{www.doctorondemand.com}): [Password Policy Summary]
+    \item MyChart (\url{www.mychart.com}): [Password Policy Summary]
+    \item Zocdoc (\url{www.zocdoc.com}): [Password Policy Summary]
+\end{enumerate}
+
+\subsection*{Gaming Domain:}
+\paragraph{} The gaming domain includes online platforms, gaming stores, and multiplayer gaming services. It is important for entertainment, social interaction, and sometimes even professional gaming. If an account in this domain is compromised, several consequences may arise. These include loss of in-game purchases, unauthorized access to personal and financial information associated with the account, potential loss of progress, items, or achievements in games, and in severe cases, the account could be used for fraudulent activities within the gaming ecosystem.
+\begin{enumerate}
+    \item Steam (\url{store.steampowered.com}): [Password Policy Summary]
+    \item Epic Games (\url{www.epicgames.com}): [Password Policy Summary]
+    \item Xbox (\url{www.xbox.com}): [Password Policy Summary]
+    \item PlayStation Network (\url{www.playstation.com}): [Password Policy Summary]
+    \item Twitch (\url{www.twitch.tv}): [Password Policy Summary]
+    \item Origin (\url{www.origin.com}): [Password Policy Summary]
+    \item GOG.com (\url{www.gog.com}): [Password Policy Summary]
+    \item Uplay (\url{store.ubi.com}): [Password Policy Summary]
+    \item Nintendo (\url{www.nintendo.com}): [Password Policy Summary]
+    \item Blizzard Entertainment (\url{www.blizzard.com}): [Password Policy Summary]
+\end{enumerate}
+
+\subsection*{E-commerce Domain:}
+\paragraph{} The e-commerce domain consists of online retail platforms where consumers can purchase goods and services. It's important because it offers convenience, a wide variety of products, competitive pricing, and often, fast delivery. If an account in this domain is compromised, it could lead to financial loss through unauthorized purchases made using stored payment methods, exposure of personal and financial information to cybercriminals, potential identity theft, and manipulation of order history or delivery addresses, leading to further fraudulent activities.
+\begin{enumerate}
+    \item Amazon (\url{www.amazon.com}): [Password Policy Summary]
+    \item eBay (\url{www.ebay.com}): [Password Policy Summary]
+    \item Walmart (\url{www.walmart.com}): [Password Policy Summary]
+    \item Target (\url{www.target.com}): [Password Policy Summary]
+    \item Best Buy (\url{www.bestbuy.com}): [Password Policy Summary]
+    \item Etsy (\url{www.etsy.com}): [Password Policy Summary]
+    \item Alibaba (\url{www.alibaba.com}): [Password Policy Summary]
+    \item Shopify (\url{www.shopify.com}): [Password Policy Summary]
+    \item Newegg (\url{www.newegg.com}): [Password Policy Summary]
+    \item Overstock (\url{www.overstock.com}): [Password Policy Summary]
+\end{enumerate}
+
+\subsection*{Social Networking Domain:}
+\paragraph{} The social networking domain comprises platforms for social interaction, content sharing, and networking. It's significant for communication, staying connected with friends, family, and colleagues, sharing experiences, and accessing news and information. If an account in this domain is compromised, it could result in various consequences such as unauthorized access to personal messages, photos, and posts, identity theft through impersonation or fraudulent activities, spreading of malicious content or scams to the victim's network, and reputational damage due to compromised privacy settings or shared sensitive information.
+\begin{enumerate}
+    \item Facebook (\url{www.facebook.com}): [Password Policy Summary]
+    \item Twitter (\url{www.twitter.com}): [Password Policy Summary]
+    \item Instagram (\url{www.instagram.com}): [Password Policy Summary]
+    \item LinkedIn (\url{www.linkedin.com}): [Password Policy Summary]
+    \item Snapchat (\url{www.snapchat.com}): [Password Policy Summary]
+    \item Pinterest (\url{www.pinterest.com}): [Password Policy Summary]
+    \item Reddit (\url{www.reddit.com}): [Password Policy Summary]
+    \item TikTok (\url{www.tiktok.com}): [Password Policy Summary]
+    \item Tumblr (\url{www.tumblr.com}): [Password Policy Summary]
+    \item Nextdoor (\url{www.nextdoor.com}): [Password Policy Summary]
+\end{enumerate}
+
+\section{Password Recovery Mechanisms and 2FA}
+% Table for password recovery mechanisms and 2FA
+
+\begin{table}[h]
+\centering
+\begin{tabular}{@{}lll@{}}
+\toprule
+Website & Password Recovery & Two-Factor Authentication \\ \midrule
+Site 1  & Method 1           & Yes                       \\
+Site 2  & Method 2           & No                        \\
+Site 3  & Method 3           & Yes                       \\ \bottomrule
+\end{tabular}
+\caption{Password Recovery Mechanisms and 2FA for Selected Websites}
+\label{tab:recovery}
+\end{table}
+
+\section{Conclusion}
+In conclusion, the analysis of password policies across different domains reveals significant variations in their approach to password security. Understanding these policies and associated recovery mechanisms is essential for users to maintain the security of their accounts.
+
+\section{Submission}
+Please submit the completed report as a PDF on Canvas by the specified deadline.
+
+\end{document}
